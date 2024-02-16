@@ -1,0 +1,37 @@
+{
+  "name": "todo_backend_services",
+  "version": "1.0.1",
+  "description": "Todo Backend Services To Create, Read, Update and Delete. Todos",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayushpardeshi12/Todo_App_MERN.git"
+  },
+  "keywords": [
+    "Todo",
+    "React",
+    "Save",
+    "Update",
+    "Delete",
+    "Fetch"
+  ],
+  "author": "ayushpardeshi12",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ayushpardeshi12/Todo_App_MERN/issues"
+  },
+  "homepage": "https://github.com/ayushpardeshi12/Todo_App_MERN#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

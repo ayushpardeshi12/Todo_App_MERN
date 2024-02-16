@@ -1,0 +1,48 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Protest+Riot&family=Roboto&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+
+* {
+  /* font-family: "Protest Riot", sans-serif; */
+
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(230, 239, 245, 1) 0%,
+    rgba(123, 197, 248, 0.9831582291119573) 100%
+  );
+}
+
+h1 {
+  font-family: 200;
+  color: #1c1943;
+  /* -webkit-text-stroke: 2px #857e7e; */
+  /* color: transparent; */
+  /* background: rgb(245, 153, 39); */
+  /* background: linear-gradient(
+    90deg,
+    rgba(245, 153, 39, 1) 0%,
+    rgba(243, 246, 61, 1) 23%,
+    rgba(6, 176, 154, 1) 48%,
+    rgba(20, 17, 219, 1) 74%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: transparent;
+  background-size: center;
+  background-clip: text;
+  -webkit-background-clip: text; */
+}
+
+.bg-color {
+  background-color: rgb(32, 24, 68);
+  color: #fff;
+}
+
+/* .stroke {
+  -webkit-text-stroke: 2px #000;
+  color: transparent;
+} */

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo Application</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        box-sizing: border-box;
+        text-align: center;
+        background-color: #fc3503;
+        color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div>
+        <h1>To Do List App</h1>
+
+        <form action="/todos" method="post">
+          <input type="text" name="title" id="title" />
+          <input type="text" name="description" id="description" />
+          <button type="submit">Add Todo</button>
+        </form>
+
+        <br /><br />
+      </div>
+    </main>
+  </body>
+  <% getTodo.forEach(todo => { %>
+  <li>
+    <h3><%= todo.title %></h3>
+    <p><%= todo.description %></p>
+  </li>
+  <% }); %>
+</html>
